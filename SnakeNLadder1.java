@@ -1,6 +1,6 @@
 import SnakeAndLadders.RollDice;
 import SnakeAndLadders.Player;
-
+// importing packages
 import java.util.Scanner;
 
 public class SnakeNLadder1 {
@@ -14,13 +14,14 @@ class SnakeNLadder {
     RollDice rd = new RollDice();
     Player p = new Player();
     {
-
+        // contain snakes heads and tails
         p.insertSnake(99, 54);
         p.insertSnake(70, 55);
         p.insertSnake(52, 42);
         p.insertSnake(25, 2);
         p.insertSnake(95, 72);
-
+        
+        // ladders
         p.insertladder(6, 25);
         p.insertladder(11, 40);
         p.insertladder(60, 85);
